@@ -1,8 +1,8 @@
 {
-  "name": "perfect-scrollbar",
-  "version": "1.4.0",
-  "description": "Minimalistic but perfect custom scrollbar plugin",
-  "author": "Hyunje Jun <me@noraesae.net>",
+  "name": "not-perfect-scrollbar",
+  "version": "1.0.0",
+  "description": "Minimalistic but fixed perfect custom scrollbar plugin",
+  "author": "ms-dosx86",
   "keywords": [
     "frontend",
     "scroll",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/utatti/perfect-scrollbar"
+    "url": "https://github.com/ms-dosx86/perfect-scrollbar"
   },
   "bugs": {
-    "url": "https://github.com/utatti/perfect-scrollbar/issues"
+    "url": "https://github.com/ms-dosx86/perfect-scrollbar/issues"
   },
   "jspm": {
     "main": "dist/perfect-scrollbar.common.js",

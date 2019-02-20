@@ -1,6 +1,6 @@
 /*!
- * perfect-scrollbar v1.4.0
- * (c) 2018 Hyunje Jun
+ * perfect-scrollbar v1.0.0
+ * (c) 2019 Hyunje Jun
  * @license MIT
  */
 'use strict';
@@ -310,7 +310,8 @@ var env = {
   supportsTouch:
     typeof window !== 'undefined' &&
     ('ontouchstart' in window ||
-      (window.DocumentTouch && document instanceof window.DocumentTouch)),
+      (window.DocumentTouch && document instanceof window.DocumentTouch) ||
+      (typeof navigator !== 'undefined' && navigator.maxTouchPoints)),
   supportsIePointer:
     typeof navigator !== 'undefined' && navigator.msMaxTouchPoints,
   isChrome:

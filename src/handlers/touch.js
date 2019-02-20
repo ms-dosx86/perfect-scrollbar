@@ -201,6 +201,10 @@ export default function(i) {
     i.event.bind(element, 'touchstart', touchStart);
     i.event.bind(element, 'touchmove', touchMove);
     i.event.bind(element, 'touchend', touchEnd);
+  } else if (env.supportsPointer) {
+    i.event.bind(element, 'pointerdown', touchStart);
+    i.event.bind(element, 'pointermove', touchMove);
+    i.event.bind(element, 'pointerup', touchEnd);
   } else if (env.supportsIePointer) {
     if (window.PointerEvent) {
       i.event.bind(element, 'pointerdown', touchStart);
